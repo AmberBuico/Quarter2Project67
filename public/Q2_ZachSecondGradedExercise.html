@@ -20,7 +20,7 @@
       margin-top: 0;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 500px) {
       .float-img {
         float: none;
         display: block;
@@ -34,24 +34,35 @@
 </head>
 
 <body>
-  <h1>A tired Schedule for Today...</h1>
-  <p>Here is my schedule for the day! I chose this video because Monday Sched is the worst!
 
-  </p>
-
-  <nav>
-    <a href="https://amberbuico.github.io/CS3_1stQtrPortfolio/public/SalitanActivity.html">Amber's Monday sched</a>
-    <a href="https://30fpzs.github.io/Q1_1stGraded_StrontiumDULAY/public/SalitanProj.html">Uno's Monday sched</a>
-  </nav>
-<div class="media-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/EuTMRotTGN0?si=SD4aJBEREHjTbfTb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-      <figure>
-        <img src= "https://github.com/zjsmagat/CS3_1stQtrPortfolio/blob/main/public/img.jamamamza.jpeg" alt="Tablemates" >
-        <figcaption> The best tablemates trust! </figcaption>
-      </figure>
+  <header>
+     <div class="header-inner">
+      <img src="favicon_zach.png" alt="site icon" class="logo">
+      <div>
+        <h1 class="title">My Day's Vibe </h1>
+        <p class="subtitle">A tired schedule for today — Zach Joseph S. Magat</p>
+      </div>
     </div>
-</body>
+
+     <nav class="main-nav">
+      <a href="https://github.com/zjsmagat/CS3_1stQtrPortfolio/blob/main/public/G21NGStrontiumMagat.html" title="1st Non-Graded">1st Non-Graded Exercise</a>
+      <a href="https://github.com/zjsmagat/CS3_1stQtrPortfolio/blob/main/public/Q1_g2.HTML" target="_blank" rel="noopener">First Graded Exercise</a>
+      <a href="https://github.com/zjsmagat/CS3_1stQtrPortfolio/blob/main/index.html" target="_blank" rel="noopener">First Quarter Repository</a>
+    </nav>
+  </header>
+<div class="media-container">
+  <p>every school night core~ </p>
+       <iframe src="https://www.youtube.com/embed/EuTMRotTGN0?si=SD4aJBEREHjTbfTb" title="Beerrrrr" frameborder="0" allowfullscreen></iframe>
+
+    <section class="friends">
+      <h2>Best tablemates ever trust!!</h2>
+        <section class="friends-section">
+        <img src="img_jamamamza.jpg" alt="My tablemates" class="friends-img">
+        <p> best decision to be seated here its super cold there sir</p>
+    </section>
+
+
+<main>
 
     <table>
     <thead>
@@ -114,6 +125,15 @@
 
 
     </table>
+  </main>
 
-   
+  <footer>
+    <p class="copyright">&copy; <span id="year"></span> Zach Joseph S. Magat. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContext = new Date().getFullYear();
+  </script>
+ 
+</body>
 </html>
